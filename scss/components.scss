@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 100px;
+}
+
+.gradient {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.starly-gradient-button {
+    background: linear-gradient(90deg, #1703ff -36.77%, #c051e7 155%);
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.starly-form-button {
+    border-radius: 0;
+    border: none;
+    background: #29CB00;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    outline: none;
+}
+
+.outline{
+    background-color: transparent;
+    border: 6px solid #29CB00;
+    box-sizing: border-box;
+    color: #29CB00;
+    outline: none;
+}
+
+.inactive-form{
+    background-color: gray;
+}
+
+.inactive-gradient{
+    background: linear-gradient(90deg, gray -36.77%, white 155%);
+}
